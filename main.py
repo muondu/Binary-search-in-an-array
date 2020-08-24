@@ -17,7 +17,7 @@ while mini <= maxi:
     if number < array[mid]:
         maxi = mid - 1
     elif number > array[mid]:
-        mini = maxi + 1
+        mini = mid + 1
     else:
         print("The number is located at index: ",mid)  
         break
